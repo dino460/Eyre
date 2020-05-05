@@ -1,0 +1,37 @@
+============================================================================
+
+## MOVEMENT ##
+- Movement is handled by first typing 'move', 'go' or similar commands, then,
+ you type the direction you want to go among 'up', 'down', 'right' or 'left'
+ or their cardinal correspondents.
+
+## EXAMINATION ##
+- Examination works by typing 'look', 'examine' or anything similar to reveal
+ more information about an item or your current location.
+
+## INVENTORY ##
+- The inventory lists the current items in your handy backpack while also making
+ it possible to 'look' your items and/or 'use' them.
+
+## COMBAT ##
+- During combat you may fight, heal or flee (using the proper commands that are
+ equal to their action names)
+  > Fighting lets you inflict damage to an enemy either by a STRENGTH (frc)
+   based fisical attack or by a INTELIGENCE (intl) based magic attack.
+   The first is resisted by CONSTITUTION (con), while the later by intl.
+  > Healing lets you recover hp by consuming potions. You can also use potions
+   to 'overheal', getting higher hp than what would be possible according to
+   your class and attributes.
+  > Fleeing initiates a contest of DEXTERITY (dex), where having a higher score
+   makes it easier to flee, but the result is ultimately decided by luck, 
+   through a random number generated to both player and enemy. Succeding enables the
+   player to avoid combat.
+
+## MAP ##
+- Typing 'map' prints the overall world map.
+
+## STATS ##
+- Typing 'stats', prints your character's sheet of information, allowing you to
+ see it's JOB, ATTRIBUTE TYPE, HEALTH POINTS (hp), MAGIC POINTS (mp), STRENGTH
+ (frc), DEXTERITY (dex), CONSTITUTION (con) and INTELLIGENCE (intl).
+===============================================================================
